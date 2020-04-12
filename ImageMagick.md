@@ -1,3 +1,8 @@
+## Resources
+[Mogrify reference](https://imagemagick.org/script/mogrify.php)
+
+## Recipes
+
 - Return image specifications  
 ```identify LCMSDS_WW2_DefOvrPrnt_Emden_1945_c1.tif```
 
