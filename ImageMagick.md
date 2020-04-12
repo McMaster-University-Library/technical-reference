@@ -34,10 +34,10 @@
 - Convert tifs to jpg; maximum dimension = 2500 pixels  
 ```mogrify -format jpg -resize 2500 *.tif```
 
-- convert a tif to a jpg, 75% quality (higher compression)
+- convert a tif to a jpg, 75% quality (higher compression)  
 ```magick convert UofA_WW2_GermanyHollandPoland_25k_1517_Ed4.tif -quality 75 UofA_WW2_GermanyHollandPoland_25k_1517_Ed4_75.jpg```
 
-- Batch convert tifs to jpgs, 75% quality (higher compression)
+- Batch convert tifs to jpgs, 75% quality (higher compression)  
 ```magick mogrify -format jpg -quality 75 *.tif```
 
 - Used to annotate a gif with text  
