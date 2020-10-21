@@ -45,6 +45,9 @@
 - Batch convert tifs to jpgs, 75% quality (higher compression)  
 ```magick mogrify -format jpg -quality 75 *.tif```
 
+- Batch convert tifs to jpgs, 75% quality, max dimension = 5000 pixel (good for creating jpgs for metadata development)
+```magick mogrify -format jpg -quality 75 -resize 5000 *.tif```
+
 - Used to annotate a gif with text  
 ```
 convert ^
